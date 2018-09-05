@@ -99,7 +99,7 @@ stage {
   text-shadow: 0 1px rgba(255, 255, 255, 0);
   color: #BAC3CF;
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: rgba(102, 109, 132, 0.35); }
+  background-color: rgba(67, 75, 89, 0.35); }
   .candidate-page-button:hover,
   .hotplug-notification-item:hover,
   .hotplug-resident-eject-button:hover,
@@ -107,7 +107,7 @@ stage {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
     color: #BAC3CF;
     border: 1px solid rgba(0, 0, 0, 0.35);
-    background-color: rgba(119, 127, 151, 0.45); }
+    background-color: rgba(83, 92, 109, 0.45); }
   .candidate-page-button:focus,
   .hotplug-notification-item:focus,
   .hotplug-resident-eject-button:focus,
@@ -126,9 +126,9 @@ stage {
   .hotplug-resident-eject-button:insensitive,
   .modal-dialog-button:insensitive, .modal-dialog-button-box .button:insensitive, .notification-button:insensitive, .notification-icon-button:insensitive, .hotplug-resident-mount:insensitive {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
-    color: #5d626e;
+    color: #454950;
     border: 1px solid rgba(0, 0, 0, 0.35);
-    background-color: rgba(102, 109, 132, 0.2); }
+    background-color: rgba(67, 75, 89, 0.2); }
 
 StEntry {
   font-size: 1em;
@@ -508,7 +508,7 @@ StScrollBar {
 
 .candidate-popup-boxpointer {
   -arrow-border-radius: 2px;
-  -arrow-background-color: rgba(53, 57, 69, 0.95);
+  -arrow-background-color: rgba(19, 21, 25, 0.95);
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(0, 0, 0, 0.4);
   -arrow-base: 5;
@@ -1125,7 +1125,7 @@ StScrollBar {
 #dash {
   font-size: 1em;
   color: #BAC3CF;
-  background-color: rgba(53, 57, 69, 0.95);
+  background-color: rgba(19, 21, 25, 0.95);
   border-color: rgba(0, 0, 0, 0.4);
   padding: 3px 0px 3px 0px;
   border-radius: 0 3px 3px 0; }
@@ -1295,12 +1295,12 @@ StScrollBar {
   text-shadow: 0 1px rgba(255, 255, 255, 0);
   color: #BAC3CF;
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: rgba(102, 109, 132, 0.35); }
+  background-color: rgba(67, 75, 89, 0.35); }
   .app-view-control:hover {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
     color: #BAC3CF;
     border: 1px solid rgba(0, 0, 0, 0.35);
-    background-color: rgba(119, 127, 151, 0.45); }
+    background-color: rgba(83, 92, 109, 0.45); }
   .app-view-control:checked {
     color: #ffffff;
     background-color: #5294e2;
@@ -1315,7 +1315,7 @@ StScrollBar {
 .search-provider-icon:active, .search-provider-icon:checked,
 .list-search-result:active,
 .list-search-result:checked {
-  background-color: rgba(31, 33, 40, 0.85); }
+  background-color: rgba(0, 0, 0, 0.85); }
 
 .search-provider-icon:focus, .search-provider-icon:selected, .search-provider-icon:hover,
 .list-search-result:focus,
@@ -1330,7 +1330,7 @@ StScrollBar {
 .app-well-app.app-folder:checked .overview-icon,
 .grid-search-result:active .overview-icon,
 .grid-search-result:checked .overview-icon {
-  background-color: rgba(31, 33, 40, 0.85);
+  background-color: rgba(0, 0, 0, 0.85);
   box-shadow: inset 0 0 #5294e2; }
 
 .app-well-app:hover .overview-icon,
@@ -1371,11 +1371,11 @@ StScrollBar {
   text-align: center; }
 
 .app-well-app.app-folder > .overview-icon {
-  background-color: rgba(35, 38, 46, 0.95);
+  background-color: rgba(1, 2, 2, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45); }
 
 .app-well-app.app-folder:hover > .overview-icon {
-  background-color: rgba(60, 64, 78, 0.95); }
+  background-color: rgba(26, 28, 34, 0.95); }
 
 .app-well-app.app-folder:active > .overview-icon, .app-well-app.app-folder:checked > .overview-icon {
   color: #ffffff;
@@ -1387,7 +1387,7 @@ StScrollBar {
 
 .app-folder-popup {
   -arrow-border-radius: 2px;
-  -arrow-background-color: rgba(35, 38, 46, 0.95);
+  -arrow-background-color: rgba(1, 2, 2, 0.95);
   -arrow-border-color: rgba(0, 0, 0, 0.45);
   -arrow-border-width: 1px;
   -arrow-base: 5;
@@ -1452,7 +1452,7 @@ StScrollBar {
   color: #5c616c; }
 
 #message-tray {
-  background: #353945;
+  background: #131519;
   background-repeat: repeat;
   height: 72px;
   border: solid rgba(0, 0, 0, 0.6);
@@ -1530,12 +1530,12 @@ StScrollBar {
       text-shadow: 0 1px rgba(255, 255, 255, 0);
       color: #BAC3CF;
       border: 1px solid rgba(0, 0, 0, 0.35);
-      background-color: rgba(102, 109, 132, 0.35); }
+      background-color: rgba(67, 75, 89, 0.35); }
     .summary-source-button:hover .summary-source {
       text-shadow: 0 1px rgba(255, 255, 255, 0);
       color: #BAC3CF;
       border: 1px solid rgba(0, 0, 0, 0.35);
-      background-color: rgba(119, 127, 151, 0.45); }
+      background-color: rgba(83, 92, 109, 0.45); }
     .summary-source-button:focus .summary-source,
     .summary-source-button:selected .summary-source {
       text-shadow: 0 1px rgba(255, 255, 255, 0);
@@ -1595,8 +1595,8 @@ StScrollBar {
     padding: 7px;
     caret-color: #BAC3CF;
     color: #BAC3CF;
-    background-color: rgba(102, 109, 132, 0.35);
-    border: 1px solid rgba(26, 28, 34, 0.35);
+    background-color: rgba(67, 75, 89, 0.35);
+    border: 1px solid rgba(0, 0, 0, 0.35);
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
     .notification StEntry:focus {
       color: #ffffff;
@@ -1628,8 +1628,8 @@ StScrollBar {
 StEntry.chat-response {
   padding: 7px;
   color: #BAC3CF;
-  background-color: rgba(102, 109, 132, 0.35);
-  border: 1px solid rgba(26, 28, 34, 0.35);
+  background-color: rgba(67, 75, 89, 0.35);
+  border: 1px solid rgba(0, 0, 0, 0.35);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
   StEntry.chat-response:focus {
     color: #ffffff;
@@ -1700,7 +1700,7 @@ StEntry.chat-response {
     border-width: 0; }
 
 #keyboard {
-  background-color: rgba(53, 57, 69, 0.95);
+  background-color: rgba(19, 21, 25, 0.95);
   border-width: 0;
   border-top-width: 1px;
   border-color: rgba(0, 0, 0, 0.2); }
@@ -1723,12 +1723,12 @@ StEntry.chat-response {
   text-shadow: 0 1px rgba(255, 255, 255, 0);
   color: #BAC3CF;
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: rgba(102, 109, 132, 0.35); }
+  background-color: rgba(67, 75, 89, 0.35); }
   .keyboard-key:hover {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
     color: #BAC3CF;
     border: 1px solid rgba(0, 0, 0, 0.35);
-    background-color: rgba(119, 127, 151, 0.45); }
+    background-color: rgba(83, 92, 109, 0.45); }
   .keyboard-key:active, .keyboard-key:checked {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
     color: #ffffff;
@@ -1736,15 +1736,15 @@ StEntry.chat-response {
     background-color: #5294e2; }
   .keyboard-key:grayed {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
-    color: #5d626e;
+    color: #454950;
     border: 1px solid rgba(0, 0, 0, 0.35);
-    background-color: rgba(102, 109, 132, 0.2); }
+    background-color: rgba(67, 75, 89, 0.2); }
 
 .keyboard-subkeys {
   color: #BAC3CF;
   padding: 5px;
   -arrow-border-radius: 2px;
-  -arrow-background-color: rgba(53, 57, 69, 0.95);
+  -arrow-background-color: rgba(19, 21, 25, 0.95);
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(0, 0, 0, 0.4);
   -arrow-base: 20px;
@@ -1966,7 +1966,7 @@ StEntry.chat-response {
   .screen-shield-notifications-container .screen-shield-notification-source {
     padding: 12px 6px;
     border: 1px solid rgba(186, 195, 207, 0.2);
-    background-color: rgba(53, 57, 69, 0.45);
+    background-color: rgba(19, 21, 25, 0.45);
     color: #BAC3CF;
     border-radius: 4px; }
   .screen-shield-notifications-container .notification {
@@ -1980,7 +1980,7 @@ StEntry.chat-response {
   padding: 0px 0px 0px 12px; }
 
 #panel.lock-screen {
-  background-color: rgba(53, 57, 69, 0.5); }
+  background-color: rgba(19, 21, 25, 0.5); }
 
 .screen-shield-background {
   background: black;
@@ -2037,8 +2037,8 @@ StEntry.chat-response {
   selection-background-color: #5294e2;
   selected-color: #ffffff;
   color: #BAC3CF;
-  background-color: rgba(102, 109, 132, 0.35);
-  border: 1px solid rgba(26, 28, 34, 0.35);
+  background-color: rgba(67, 75, 89, 0.35);
+  border: 1px solid rgba(0, 0, 0, 0.35);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
   .lg-dialog StEntry:focus {
     color: #ffffff;
@@ -2075,7 +2075,7 @@ StEntry.chat-response {
 .lg-extension {
   border: 1px solid rgba(0, 0, 0, 0.7);
   border-radius: 2px;
-  background-color: rgba(53, 57, 69, 0.95);
+  background-color: rgba(19, 21, 25, 0.95);
   padding: 4px; }
 
 .lg-extension-name {
